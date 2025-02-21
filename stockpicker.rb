@@ -12,9 +12,9 @@ def stock_picker(days)
       end
     end
   end
-  puts best_day_buy
-  puts best_day_sell
+  exchange_days = [best_day_buy, best_day_sell]
+  exchange_days 
 end
 
 
-stock_picker([17,18,6,9,15,8,6,10,1])
+p stock_picker([17,3,6,9,15,8,6,1,10])
